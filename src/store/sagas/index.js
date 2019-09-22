@@ -1,3 +1,4 @@
-import ApiErrors from "./ApiErrors";
+import ApiErrors from './ApiErrors'
+import metricsSaga from './Metrics'
 
-export default [...ApiErrors];
+export default [...ApiErrors, ...metricsSaga]
